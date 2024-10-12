@@ -1,0 +1,40 @@
+
+
+             /*! heading image */
+             .elementor-widget-image {
+                text-align: center;
+            }
+            .elementor-widget-image a {
+                display: inline-block;
+            }
+            .elementor-widget-image a img[src$=".svg"] {
+                width: 48px;
+            }
+            .elementor-widget-image img {
+                vertical-align: middle;
+                display: inline-block;
+            }
+
+
+            
+
+            .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload),
+            .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload)* {
+                background-image: none !important;
+            }
+            @media screen and(max-height:1024px) {
+                .e-con.e-parent:nth-of-type(n + 3):not(.e-lazyloaded):not(.e-no-lazyload),
+                .e-con.e-parent:nth-of-type(n + 3):not(.e-lazyloaded):not(.e-no-lazyload)* {
+                    background-image: none !important;
+                }
+            }
+            @media screen and(max-height:640px) {
+                .e-con.e-parent:nth-of-type(n + 2):not(.e-lazyloaded):not(.e-no-lazyload),
+                .e-con.e-parent:nth-of-type(n + 2):not(.e-lazyloaded):not(.e-no-lazyload)* {
+                    background-image: none !important;
+                }
+            }
+
+
+
+
